@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+    <div class="left-div">
+    <form>
+        <label id="txtf" for="fname">Text Field *</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="pet-select">Choose a pet:</label><br>
+        
+        <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select><br>
+        <label for="story">text Area</label><br>
+        
+        <textarea id="story" name="story" rows="5" cols="33">
+       Text Area
+        </textarea><br>
+        <label for="intext">Text Field with Add-ons *</label><br>
+        <input type="text" id="intext" name="intext">
+        <button>Button</button>
+    </form>
+
+    </div>
+   <div class="right-div">
+<input type="text" id="fname" name="fname">
+<div class="quantity" id="quantity">
+    <a href="#" class="quantity__minus"><span>-</span></a>
+    <input name="quantity" type="text" class="quantity__input" value="1">
+    <a href="#" class="quantity__plus"><span>+</span>
+    </a>
+    
+</div>
+<input type="checkbox">
+<label id="checkbox" for="fname" >Check Box</label><br>
+<input type="radio">
+<label id="radio" for="radio"> Radio Button</label><br>
+<!-- Rounded switch -->
+<label class="switch">
+    <input type="checkbox">
+    <span class="slider round"></span>
+</label>
+   </div>
+</div>
+</body>
+</html>
